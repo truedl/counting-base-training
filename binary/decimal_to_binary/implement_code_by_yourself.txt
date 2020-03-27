@@ -1,0 +1,4 @@
+Little task to train it: Write function at any programming language you want to convert decimal-base number into binary-base number.
+
+I'll add code that I wrote in Python "implementation.py", it's the solution :).
+You're welcome to contribute the project and add your own implentations in any different programming language.
