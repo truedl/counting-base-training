@@ -53,3 +53,5 @@ Now the final result is 1100100.
 0b1100100 == 100 (decimal)
 
 Note: We mark binary numbers by "0b" at the start. 0b100 != 100 (decimal) but 0b100 == 4 (decimal)
+
+Now you're ready to train your knowledge on the "battlefield", go to "implement_code_by_yourself.txt" and read the exercise instructions :).
