@@ -1,5 +1,5 @@
 We'll convert the decimal number 100 into binary.
-To convert decimal-base number into binary-base number we need to modulo number in 2 and divide too by 2 but remove the floating point (like the // operator in Python, I'll use it here).
+To convert decimal-base number into binary-base number we need to modulo decimal-base number by 2 and divide it too by 2 but remove the floating point (like the // operator in Python does, I'll use it here).
 
 Let's take an example in the "algebraic" way.
 x is the decimal number.
