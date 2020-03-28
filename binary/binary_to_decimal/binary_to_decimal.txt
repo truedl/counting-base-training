@@ -1,0 +1,31 @@
+We'll convert the binary-base 0b1100100 to decimal-base.
+To convert decimal-base number to binary-base number first of all we need to "reverse" our binary-base number.
+For example our number is 0b1100100 then we'll "reverse" it into 0b0010011.
+
+Now it's our new binary-base number: 0b0010011.
+We need to multiply all the numbers from left to right by their "index" squared (index^2 || index**2 (depending on your programming language, I prefer use math.pow in Python)).
+
+Before we perform that action we need to understand what index is:
+   0b   0 0 1 0 0 1 1
+INDEX   0 1 2 3 4 5 6
+
+The index starts from 0 and every number it becomes previous_index+1.
+
+Let's perform these actions and get our decimal-base number!.
+We need, as I said, multiply every number by their index squared.
+Let's take a look on the first 0-index (0b->0<-010011) number in our binary-base number (I'll use ** as the power operator.):
+0 * (2 ** 0)
+          ^
+          Our index is 0 then here we square it by 0.
+
+if our index was 1 then it'll look like this:
+0 * (2 ** 1)
+          ^
+          Our index is 1 then here we square it by 1.
+
+We need to do that on all the binary-base numbers and then connect them. The solution looks like this:
+0 * (2 ** 0) + 0 * (2 ** 1) + 1 * (2 ** 2) + 0 * (2 ** 3) + 0 * (2 ** 4) + 1 * (2 ** 5) + 1 * (2 ** 6)
+
+Well done! the result of this exercise is 100 :). Yep that's our decimal-based number.
+
+You're welcome to switch into the fun coding training :).
