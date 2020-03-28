@@ -1,0 +1,4 @@
+Binary (or 2-base) is a numeric system (counting-base) that only uses two digits 0 and 1.
+It can represent any number by these two numbers.
+
+# TODO: I need to add more details about that tomorrow. What 0 and 1 means and how it's work.
